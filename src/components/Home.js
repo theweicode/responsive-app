@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Portfolio = () => (
+const Home = () => (
   <div className="home ">
     <div className="menu-icon">
       <i className="fas fa-bars" />
@@ -11,7 +11,10 @@ const Portfolio = () => (
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+
+        <NavLink exact to="/components/Contact" className="ghost-btn">
+          Contact
+        </NavLink>
       </nav>
     </section>
     <section className="info-section">
@@ -59,20 +62,18 @@ const Portfolio = () => (
             kogi.
           </p>
 
-          <a href="#" className="primary-btn">
+          <NavLink exact to="/components/Work" className="primary-btn">
             Portfolio
-          </a>
-
+          </NavLink>
           <NavLink exact to="/components/Resume" className="ghost-btn">
             Resume
           </NavLink>
-
-          {/* <a href="#" className="ghost-btn">
-								Resume
-							</a> */}
+          <NavLink exact to="/components/Contact" className="ghost-btn">
+            Contact
+          </NavLink>
         </div>
       </div>
     </section>
   </div>
 );
-export default Portfolio;
+export default Home;

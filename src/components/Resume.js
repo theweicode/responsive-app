@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 
 class Resume extends Component {
   constructor() {
@@ -14,7 +13,7 @@ class Resume extends Component {
     return (
       <div className="resume">
         <div className="menu-icon">
-          <i class="fas fa-times" />
+          <i class="fas fa-bars" />
         </div>
         <section id="menu">
           <nav>
