@@ -38,14 +38,11 @@ const Contact = () => (
           <a href="#">
             <i className="fab fa-stack-overflow" />
           </a>
-          <a href="#">
-            <i className="fab fa-dribbble" />
-          </a>
         </div>
       </div>
     </section>
     <section className="content-area">
-      <div className="img-container">
+      <div className="message-container">
         <div className="form-section">
           <form action="/" method="POST">
             <h4>Send a Message</h4>

@@ -44,9 +44,6 @@ class Resume extends Component {
               <a href="#">
                 <i className="fab fa-stack-overflow" />
               </a>
-              <a href="#">
-                <i className="fab fa-dribbble" />
-              </a>
             </div>
           </div>
         </section>
