@@ -70,7 +70,7 @@ class Home extends React.Component {
           <div className="profile-section">
             <div className="profile">
               <h1>
-                Will <br />
+                <br />
                 <span>Ting</span>
               </h1>
               <h5>Web Developer </h5>

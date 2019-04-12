@@ -41,9 +41,7 @@ class Work extends Component {
           </nav>
         </section>
         <section className="info-section">
-          <div className="logo" onClick={this.handleClick}>
-            Will
-          </div>
+          <div className="logo" onClick={this.handleClick} />
           <div className="info-box">
             <h4>Email</h4>
             <p>williamting@gmail.com</p>
