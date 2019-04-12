@@ -23,7 +23,7 @@
                 width: 100%;
                 height: calc(100vh - 112px);
 
-                background: url(/img/picture.jpg) no-repeat center center;
+                background: url(https://www.logolynx.com/images/logolynx/e1/e1d2fcf29877eb842ac100cbb3329119.png) no-repeat center center;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -42,7 +42,7 @@
                 width: 100%;
                 height: calc(100vh - 112px);
 
-                background: url(/img/resume.jpg) no-repeat center center;
+                background: url(https://www.logolynx.com/images/logolynx/e1/e1d2fcf29877eb842ac100cbb3329119.png) no-repeat center center;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -129,11 +129,19 @@
             left: 0;
             min-height: 100%;
 
-            .logo {
-                height: 50px;
-                width: 70px;
+            /* .logo {
+                height: 40px;
+                width: 40px;
                 font-size: 1rem;
-            }
+                border: 0px solid transparent;
+
+
+                background: url(https://i.imgur.com/1fXUQ8a.png) no-repeat center center;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            } */
 
             .info-box {
                 display: none;

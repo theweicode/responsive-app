@@ -2,18 +2,34 @@
 
 
     height: 130px;
-    width: 150px;
+    width: 130px;
     display: flex;
-    border: 5px solid #fff;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    color: white;
-    line-height: 0;
-    text-transform: uppercase;
 
+
+
+
+
+    background: url(https://i.imgur.com/1fXUQ8a.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: $btnTransitions;
+
+    &:hover {
+        background: url(https://i.imgur.com/diOkln8.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
 }
+
+
+
+
+
 
 .info-section {
     padding: 54px;
@@ -70,4 +86,12 @@
     }
 
 
+}
+
+
+@media (max-width: 767px) {
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
 }

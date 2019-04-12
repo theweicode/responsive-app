@@ -22,17 +22,24 @@ class Home extends React.Component {
         </div>
         <section id="menu">
           <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
+            <NavLink onClick={this.handleClick} className="ghost-btn">
+              Home
+            </NavLink>
+            <NavLink exact to="/components/Work" className="ghost-btn">
+              Portfolio
+            </NavLink>
+            <NavLink exact to="/components/Resume" className="ghost-btn">
+              Resume
+            </NavLink>
 
-            <NavLink exact to="/components/Contact" className="ghost-btn">
+            <NavLink to="/components/Contact" className="ghost-btn">
               Contact
             </NavLink>
           </nav>
         </section>
+
         <section className="info-section">
-          <div className="logo">Will</div>
+          <div className="logo" onClick={this.handleClick} />
           <div className="info-box">
             <h4>Email</h4>
             <p>williamting@gmail.com</p>

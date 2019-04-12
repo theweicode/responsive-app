@@ -1,30 +1,45 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 class Resume extends Component {
-  constructor() {
-    super();
-    this.state = {
-      name: "Joe"
-    };
+  constructor(props) {
+    super(props);
+    this.state = { condition: true };
+    this.handleClick = this.handleClick.bind(this);
   }
-  clickedBtn = () => {};
-  async test() {}
+
+  handleClick() {
+    this.setState({
+      condition: !this.state.condition
+    });
+  }
   render() {
     return (
-      <div className="resume">
-        <div className="menu-icon">
-          <i class="fas fa-bars" />
+      <div className={this.state.condition ? "resume" : "resume menu-active"}>
+        <div className="menu-icon" onClick={this.handleClick}>
+          <i className="fas fa-bars" />
         </div>
         <section id="menu">
           <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <NavLink exact to="/" className="ghost-btn">
+              Home
+            </NavLink>
+            <NavLink exact to="/components/Work" className="ghost-btn">
+              Portfolio
+            </NavLink>
+            <NavLink onClick={this.handleClick} className="ghost-btn">
+              Resume
+            </NavLink>
+
+            <NavLink to="/components/Contact" className="ghost-btn">
+              Contact
+            </NavLink>
           </nav>
         </section>
         <section className="info-section">
-          <div className="logo">Will</div>
+          <div className="logo" onClick={this.handleClick}>
+            Will
+          </div>
           <div className="info-box">
             <h4>Email</h4>
             <p>williamting@gmail.com</p>
