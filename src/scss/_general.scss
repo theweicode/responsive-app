@@ -136,3 +136,12 @@ body {
     overflow-x: hidden;
     padding: 56px;
 }
+
+.logo,
+.fas {
+
+
+    &:hover {
+        cursor: pointer;
+    }
+}

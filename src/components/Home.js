@@ -71,9 +71,9 @@ class Home extends React.Component {
             <div className="profile">
               <h1>
                 <br />
-                <span>Ting</span>
+                <span>Responsive App</span>
               </h1>
-              <h5>Web Developer </h5>
+              <h5>mobile - laptops - desktops - 4k </h5>
               <p>
                 Lorem ipsum dolor amet brooklyn edison bulb ramps blog mixtape
                 8-bit crucifix kinfolk keffiyeh iPhone everyday carry fanny pack
