@@ -47,16 +47,32 @@ class Home extends React.Component {
             <p>949-829-1403</p>
             <h4>Find Me On</h4>
             <div className="icon-section">
-              <a href="#">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/theweicode/"
+              >
                 <i className="fab fa-github" />
               </a>
-              <a href="#">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/will-ting-5728b975/"
+              >
                 <i className="fab fa-linkedin" />
               </a>
-              <a href="#">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://codepen.io/theweicode/#"
+              >
                 <i className="fab fa-codepen" />
               </a>
-              <a href="#">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://stackoverflow.com/users/11133416/will"
+              >
                 <i className="fab fa-stack-overflow" />
               </a>
             </div>
